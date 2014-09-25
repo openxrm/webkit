@@ -1,0 +1,1 @@
+Cuando se necesita crear una aplicacion que se muestre en toda la pantalla sin ocultar su header y su footer osea un fit completo. 

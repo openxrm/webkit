@@ -1,0 +1,44 @@
+#header, #footer, #container, #nav, #article, #toolbar, #content, #aside
+{
+	padding: 5px;
+}
+
+#header, #footer
+{
+	color: #044881;
+	background-color: #0C7CD9;	
+}
+
+#container
+{
+	background-color: #1573C2;	
+}
+
+#nav
+{
+	color: #039767;
+	background-color: #3CC296;
+}
+		
+#article
+{
+	background-color: #FF6A4F;
+}	
+
+#toolbar
+{
+	color: #BD490E;
+	background-color: #FF8A4F;
+}
+
+#content
+{
+	color: #BD810E;
+	background-color: #FFC24F;
+}
+
+#aside
+{
+	color: #039767;
+	background-color: #3CC296;
+}
