@@ -1,0 +1,56 @@
+html, body
+{
+	margin: 0px;
+	height: 100%;
+	overflow: hidden;
+}
+
+body
+{
+	display: -webkit-box; /* Safari & Chrome */
+	display: -ms-flexbox; /* Internet Explorer */
+	-webkit-box-orient: vertical; /* Safari & Chrome */
+	-ms-flex-direction: column; /* Internet Explorer */
+}
+
+#main-header
+{
+	height: 20px;
+}
+
+#main-container
+{
+	height: 100%;
+	display: -webkit-box; /* Safari & Chrome */
+	display: -ms-flexbox; /* Internet Explorer */ 
+	-webkit-box-flex: 2; /* Safari & Chrome */
+			-ms-flex: 2; /* Internet Explorer */
+}
+
+#main-article
+{
+	-webkit-box-flex: 2; /* Safari & Chrome */
+			-ms-flex: 2; /* Internet Explorer */
+}	
+
+#main-content
+{
+	/* Add properties here */	
+}
+
+#main-footer
+{
+	height: 20px;
+}
+		
+/* Safari & Chrome */
+@media screen and (-webkit-min-device-pixel-ratio: 0)
+{
+	
+}
+
+/* Internet Explorer 10+ */
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none)
+{
+	
+}
