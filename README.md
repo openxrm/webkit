@@ -1,8 +1,11 @@
 webkit
 ======
 
-This is a work in progress. 
+[Work in progress] 
 
-The main reason for publishing this small project is to provide a border-layout for web applications that needs to fit always in the browser document
-avoiding the scroll for the whole page. We are going to make this cross-browser and responsive using flexbox layout and will try to avoid absolute 
-and fixed positions as much as we can.
+A small project as starting point for web applications that needs to fit in the browser's document body with a 100% of the available screen.
+
+Flexbox layout will be the base for the border layout css classes and will try to avoid as much as it can the use of absolute and fixed
+positions.
+
+Making this responsive is also part of the plan.
