@@ -1,6 +1,8 @@
 /* Region Box */
 .x-rbox {
+	display: -ms-flexbox;
 	display: flex;
+	-ms-flex-flow: wrap row;
 	flex-flow: wrap row;
 }
 
@@ -14,7 +16,8 @@
 
 .x-north, .x-south {
 	height: 30px;
-	flex: 1 100%;
+	-ms-flex: 1 100%;
+		flex: 1 100%;
 }
 
 .x-east, .x-west {
@@ -23,21 +26,26 @@
 
 .x-center {
 	height: calc(100% - 60px);
-	flex: 2 0px;
+	-ms-flex: 2 0px;
+		flex: 2 0px;
 }
 
 .x-west {
-	order: 1;
+	-ms-flex-order: 1;
+			 order: 1;
 }
 
 .x-center {
-	order: 2;
+	-ms-flex-order: 2;
+			 order: 2;
 }
 
 .x-east {
-	order: 3;
+	-ms-flex-order: 3;
+			 order: 3;
 }
 
 .x-south {
-	order: 4;
+	-ms-flex-order: 4;
+			 order: 4;
 }
