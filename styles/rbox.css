@@ -18,12 +18,12 @@
 }
 
 .x-east, .x-west {
-	flex: 1 50px;
+	width: 50px;
 }
 
 .x-center {
 	height: calc(100% - 60px);
-	flex: 2 calc(100% - 100px);
+	flex: 2 0px;
 }
 
 .x-west {
