@@ -1,12 +1,14 @@
 /* Horizontal Box and Vertical Box */
 .x-hbox, .x-vbox
 {
+	display: -webkit-box;
 	display: flex;
 }
 
 /* Vertical Box */
 .x-vbox
 {
+	-webkit-box-orient: vertical;
 	flex-direction: column;
 }
 
@@ -34,11 +36,13 @@
 .x-vbox > .x-center
 {
 	height: 100%; /* Basic: use all the available space */
+	-webkit-box-flex: 2; /* Safari & Chrome */
 }
 
 .x-hbox > .x-center
 {
 	width: 100%; /* Basic: use all the available space */
+	-webkit-box-flex: 2; /* Safari & Chrome */
 }
 
 .x-east
