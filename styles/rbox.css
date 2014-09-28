@@ -1,0 +1,43 @@
+/* Region Box */
+.x-rbox {
+	display: flex;
+	flex-flow: wrap row;
+}
+
+.x-north, .x-west, .x-center, .x-east, .x-south {
+	
+}
+
+.x-west, .x-center, x-east {
+	
+}
+
+.x-north, .x-south {
+	height: 30px;
+	flex: 1 100%;
+}
+
+.x-east, .x-west {
+	flex: 1 50px;
+}
+
+.x-center {
+	height: calc(100% - 60px);
+	flex: 2 calc(100% - 100px);
+}
+
+.x-west {
+	order: 1;
+}
+
+.x-center {
+	order: 2;
+}
+
+.x-east {
+	order: 3;
+}
+
+.x-south {
+	order: 4;
+}
