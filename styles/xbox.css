@@ -1,15 +1,17 @@
 /* Horizontal Box and Vertical Box */
 .x-hbox, .x-vbox
 {
-	display: -webkit-box;
+	display: -webkit-box; /* Safari & Chrome */
+	display: -ms-flexbox; /* Internet Explorer */
 	display: flex;
 }
 
 /* Vertical Box */
 .x-vbox
 {
-	-webkit-box-orient: vertical;
-	flex-direction: column;
+	-webkit-box-orient: vertical; /* Safari & Chrome */
+	-ms-flex-direction: column; /* Internet Explorer */
+		flex-direction: column;
 }
 
 /* Horizontal Box */
@@ -37,17 +39,19 @@
 {
 	height: 100%; /* Basic: use all the available space */
 	-webkit-box-flex: 2; /* Safari & Chrome */
+			-ms-flex: 2; /* Internet Explorer */
 }
 
 .x-hbox > .x-center
 {
 	width: 100%; /* Basic: use all the available space */
 	-webkit-box-flex: 2; /* Safari & Chrome */
+			-ms-flex: 2; /* Internet Explorer */ 
 }
 
 .x-east
 {
-
+	
 }
 
 .x-south
