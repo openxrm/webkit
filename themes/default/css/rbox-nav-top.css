@@ -1,0 +1,11 @@
+.x-north, .x-south {
+	height: 30px;
+}
+
+.x-east, .x-west {
+	width: 50px;
+}
+
+.x-center {
+	height: calc(100% - 90px);
+}

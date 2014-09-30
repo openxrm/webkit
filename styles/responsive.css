@@ -1,0 +1,15 @@
+@CHARSET "ISO-8859-1";
+
+@media  (max-height: 599px) and (orientation: portrait) 
+{
+    /* Unhide the overflow content allowing the page to display the scrollbars */
+    html, body 
+    {
+        overflow: visible;
+        height: auto;
+    }
+}
+
+#main-container.transition {
+        -webkit-transform: translate3d(50px, 0, 0);
+}

@@ -19,22 +19,23 @@
 
 		<!-- Default styles -->
 		<link href="styles/base.css" rel="stylesheet" />
-		<link href="styles/xbox.css" rel="stylesheet" />
+		<link href="styles/rbox.css" rel="stylesheet" />
 		<link href="styles/layout.css" rel="stylesheet" />
 		<link href="styles/responsive.css" rel="stylesheet" />
 		
 		<!-- Custom styles -->
 		<link href="themes/default/css/style.css" rel="stylesheet" />
+		<link href="themes/default/css/rbox-nav-top.css" rel="stylesheet" />
 	</head>
-	<body class="x-vbox">
+	<body class="x-rbox">
 		<header id="main-header" class="x-north">
 			Header
 		</header>
-		<div id="main-container" class="x-hbox x-center">
-			<nav id="main-nav" class="x-west">
+		<nav id="main-nav" class="x-north">
 				Nav
-			</nav>
-			<div id="main-article" class="x-center">
+		</nav>
+		<div id="main-container" class="x-center">
+			<div id="main-article">
 				<div id="main-toolbar">
 					Toolbar
 				</div>
@@ -42,10 +43,10 @@
 					Content
 				</div>
 			</div>
-			<aside id="main-aside" class="x-east">
-				Right
-			</aside>
 		</div>
+		<aside id="main-aside" class="x-east">
+				Right
+		</aside>
 		<footer id="main-footer" class="x-south">
 			Footer
 		</footer>
