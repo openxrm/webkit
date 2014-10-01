@@ -37,14 +37,14 @@
 
 .x-vbox > .x-center
 {
-	height: 100%; /* Basic: use all the available space */
+	height: 100%; /* Use all the available space */
 	-webkit-box-flex: 2; /* Safari & Chrome */
 			-ms-flex: 2; /* Internet Explorer */
 }
 
 .x-hbox > .x-center
 {
-	width: 100%; /* Basic: use all the available space */
+	width: 100%; /* Use all the available space */
 	-webkit-box-flex: 2; /* Safari & Chrome */
 			-ms-flex: 2; /* Internet Explorer */ 
 }
