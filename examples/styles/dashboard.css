@@ -1,10 +1,10 @@
-ul
-{
-	margin: 0px;
-	padding: 0px;
+#main-nav {
+    z-index: 1;
+    position: relative;
+    overflow: hidden;
 }
 
-a
-{
-	white-space: nowrap;
+#main-nav:first-child {
+    overflow-x: hidden;
+    overflow-y: auto;
 }

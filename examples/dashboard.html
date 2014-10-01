@@ -21,27 +21,139 @@
 	<link href="../styles/base.css" rel="stylesheet" />
 	<link href="../styles/xbox.css" rel="stylesheet" />
 	<link href="../styles/layout.css" rel="stylesheet" />
+	<link href="../styles/navigation.css" rel="stylesheet" />
 	<link href="../styles/responsive.css" rel="stylesheet" />
 	
 	<!-- Custom styles -->
 	<link href="../themes/default/css/style.css" rel="stylesheet" />
 	<link href="styles/dashboard.css" rel="stylesheet" />
+	
+	<!-- Frameworks Scripts -->
+	<script src="https://code.jquery.com/jquery-2.1.1.min.js" type="text/javascript"></script>
+	
+	<!-- Custom Scripts -->
+	<script src="../scripts/navigation.js" type="text/javascript"></script>
+	<script src="../scripts/fastclick.js" type="text/javascript"></script>
 </head>
 <body class="x-vbox">
 	<header id="main-header" class="x-north"> Header </header>
 	<div id="main-container" class="x-hbox x-center">
-		<nav id="main-nav" class="x-west">
-		<ul>
-			<li><a href="#">List Item 1</a></li>
-			<li><a href="#">List Item 2</a></li>
-			<li><a href="#">List Item 3</a></li>
-			<li><a href="#">List Item 4</a></li>
-			<li><a href="#">List Item 5</a></li>
-			<li><a href="#">List Item 6</a></li>
-			<li><a href="#">List Item 7</a></li>
-			<li><a href="#">List Item 8</a></li>
-			<li><a href="#">List Item 9</a></li>
-		</ul>
+		<nav id="main-nav" class="x-west x-vbox x-nav">
+			<ul class="x-center">
+				<li><a href="javascript:void(0)">List Item 1</a></li>
+				<li>
+					<div><a href="javascript:void(0)">List Item 2</a><a href="javascript:void(0);" class="x-submenu-button"></a></div>
+					<ul>
+						<li><div><a href="#">Sub Item 1</a></div></li>
+						<li><div><a href="#">Sub Item 2</a></div></li>
+						<li><div><a href="#">Sub Item 3</a></div></li>
+						<li><div><a href="#">Sub Item 4</a></div></li>
+						<li><div><a href="#">Sub Item 5</a></div></li>
+						<li><div><a href="#">Sub Item 6</a></div></li>
+						<li><div><a href="#">Sub Item 7</a></div></li>
+						<li><div><a href="#">Sub Item 8</a></div></li>
+						<li><div><a href="#">Sub Item 9</a></div></li>
+					</ul>
+				</li>
+				<li>
+					<div><a href="javascript:void(0)">List Item 3</a><a href="javascript:void(0);" class="x-submenu-button"></a></div>
+					<ul>
+						<li><div><a href="#">Sub Item 1</a></div></li>
+						<li><div><a href="#">Sub Item 2</a></div></li>
+						<li><div><a href="#">Sub Item 3</a></div></li>
+						<li><div><a href="#">Sub Item 4</a></div></li>
+						<li><div><a href="#">Sub Item 5</a></div></li>
+						<li><div><a href="#">Sub Item 6</a></div></li>
+						<li><div><a href="#">Sub Item 7</a></div></li>
+						<li><div><a href="#">Sub Item 8</a></div></li>
+						<li><div><a href="#">Sub Item 9</a></div></li>
+					</ul>
+				</li>
+				<li>
+					<div><a href="javascript:void(0)">List Item 4</a><a href="javascript:void(0);" class="x-submenu-button"></a></div>
+					<ul>
+						<li><div><a href="#">Sub Item 1</a></div></li>
+						<li><div><a href="#">Sub Item 2</a></div></li>
+						<li><div><a href="#">Sub Item 3</a></div></li>
+						<li><div><a href="#">Sub Item 4</a></div></li>
+						<li><div><a href="#">Sub Item 5</a></div></li>
+						<li><div><a href="#">Sub Item 6</a></div></li>
+						<li><div><a href="#">Sub Item 7</a></div></li>
+						<li><div><a href="#">Sub Item 8</a></div></li>
+						<li><div><a href="#">Sub Item 9</a></div></li>
+					</ul>
+				</li>
+				<li>
+					<div><a href="javascript:void(0)">List Item 5</a><a href="javascript:void(0);" class="x-submenu-button"></a></div>
+					<ul>
+						<li><div><a>Sub Item 1</a></div></li>
+						<li><div><a>Sub Item 2</a></div></li>
+						<li><div><a>Sub Item 3</a></div></li>
+						<li><div><a>Sub Item 4</a></div></li>
+						<li><div><a>Sub Item 5</a></div></li>
+						<li><div><a>Sub Item 6</a></div></li>
+						<li><div><a>Sub Item 7</a></div></li>
+						<li><div><a>Sub Item 8</a></div></li>
+						<li><div><a>Sub Item 9</a></div></li>
+					</ul>
+				</li>
+				<li>
+					<div><a href="javascript:void(0)">List Item 6</a><a href="javascript:void(0);" class="x-submenu-button"></a></div>
+					<ul>
+						<li><div><a>Sub Item 1</a></div></li>
+						<li><div><a>Sub Item 2</a></div></li>
+						<li><div><a>Sub Item 3</a></div></li>
+						<li><div><a>Sub Item 4</a></div></li>
+						<li><div><a>Sub Item 5</a></div></li>
+						<li><div><a>Sub Item 6</a></div></li>
+						<li><div><a>Sub Item 7</a></div></li>
+						<li><div><a>Sub Item 8</a></div></li>
+						<li><div><a>Sub Item 9</a></div></li>
+					</ul>
+				</li>
+				<li>
+					<div><a href="javascript:void(0)">List Item 7</a><a href="javascript:void(0);" class="x-submenu-button"></a></div>
+					<ul>
+						<li><div><a>Sub Item 1</a></div></li>
+						<li><div><a>Sub Item 2</a></div></li>
+						<li><div><a>Sub Item 3</a></div></li>
+						<li><div><a>Sub Item 4</a></div></li>
+						<li><div><a>Sub Item 5</a></div></li>
+						<li><div><a>Sub Item 6</a></div></li>
+						<li><div><a>Sub Item 7</a></div></li>
+						<li><div><a>Sub Item 8</a></div></li>
+						<li><div><a>Sub Item 9</a></div></li>
+					</ul>
+				</li>
+				<li>
+					<div><a href="javascript:void(0)">List Item 8</a><a href="javascript:void(0);" class="x-submenu-button"></a></div>
+					<ul>
+						<li><div><a>Sub Item 1</a></div></li>
+						<li><div><a>Sub Item 2</a></div></li>
+						<li><div><a>Sub Item 3</a></div></li>
+						<li><div><a>Sub Item 4</a></div></li>
+						<li><div><a>Sub Item 5</a></div></li>
+						<li><div><a>Sub Item 6</a></div></li>
+						<li><div><a>Sub Item 7</a></div></li>
+						<li><div><a>Sub Item 8</a></div></li>
+						<li><div><a>Sub Item 9</a></div></li>
+					</ul>
+				</li>
+				<li>
+					<div><a href="javascript:void(0)">List Item 9</a><a href="javascript:void(0);" class="x-submenu-button"></a></div>
+					<ul>
+						<li><div><a>Sub Item 1</a></div></li>
+						<li><div><a>Sub Item 2</a></div></li>
+						<li><div><a>Sub Item 3</a></div></li>
+						<li><div><a>Sub Item 4</a></div></li>
+						<li><div><a>Sub Item 5</a></div></li>
+						<li><div><a>Sub Item 6</a></div></li>
+						<li><div><a>Sub Item 7</a></div></li>
+						<li><div><a>Sub Item 8</a></div></li>
+						<li><div><a>Sub Item 9</a></div></li>
+					</ul>
+				</li>
+			</ul>
 		</nav>
 		<div id="main-article" class="x-center">
 			<div id="main-toolbar">Toolbar</div>
