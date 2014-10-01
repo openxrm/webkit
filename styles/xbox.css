@@ -38,15 +38,27 @@
 .x-vbox > .x-center
 {
 	height: 100%; /* Use all the available space */
-	-webkit-box-flex: 2; /* Safari & Chrome */
-			-ms-flex: 2; /* Internet Explorer */
 }
 
 .x-hbox > .x-center
 {
 	width: 100%; /* Use all the available space */
+}
+
+.x-vbox > .x-center:only-child,
+.x-hbox > .x-center:only-child
+{
+	-webkit-box-flex: 1; /* Safari & Chrome */
+	-ms-flex: 1; /* Internet Explorer */
+}
+
+.x-vbox > .x-north + .x-center,
+.x-vbox > .x-center + .x-south,
+.x-hbox > .x-west + .x-center,
+.x-hbox > .x-center + .x-east
+{
 	-webkit-box-flex: 2; /* Safari & Chrome */
-			-ms-flex: 2; /* Internet Explorer */ 
+			-ms-flex: 2; /* Internet Explorer */
 }
 
 .x-east
