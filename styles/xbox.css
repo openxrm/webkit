@@ -37,12 +37,12 @@
 
 .x-vbox > .x-center
 {
-	height: 100%; /* Use all the available space */
+
 }
 
 .x-hbox > .x-center
 {
-	width: 100%; /* Use all the available space */
+
 }
 
 .x-vbox > .x-center:only-child,
@@ -53,12 +53,11 @@
 }
 
 .x-vbox > .x-north + .x-center,
-.x-vbox > .x-center + .x-south,
-.x-hbox > .x-west + .x-center,
-.x-hbox > .x-center + .x-east
+.x-hbox > .x-west + .x-center
 {
 	-webkit-box-flex: 2; /* Safari & Chrome */
 			-ms-flex: 2; /* Internet Explorer */
+				flex: 2;
 }
 
 .x-east
