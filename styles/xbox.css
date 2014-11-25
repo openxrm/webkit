@@ -49,7 +49,8 @@
 .x-hbox > .x-center:only-child
 {
 	-webkit-box-flex: 1; /* Safari & Chrome */
-	-ms-flex: 1; /* Internet Explorer */
+	        -ms-flex: 1; /* Internet Explorer */
+                flex: 1;
 }
 
 .x-vbox > .x-north + .x-center,
