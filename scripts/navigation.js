@@ -1,8 +1,8 @@
 ﻿$(function () {
     // Add  fast click to toggle menu
     $('.x-toggle-menu').each(function () {
-        FastClick.attach(this);
-        $(this).click(displayNavigation);
+        //FastClick.attach(this);
+        //$(this).click(displayNavigation);
     });
 
     // Expand & Collapse menus
@@ -10,9 +10,10 @@
         $(this).click(onExpandCollapse);
     });
 
-    $('nav li > div > a:first-child[href*="javascript:void(0)"]').each(function () {
+    // Moving this code to the template
+    /*$('nav li > div > a:first-child[href*="javascript:void(0)"]').each(function () {
         $(this).addClass('x-expand-collapse');
-    });
+    });*/
 
     $('.x-expand-collapse').each(function () {
         var element = $(this);
@@ -28,7 +29,7 @@
     
     function onExpandCollapse() {
         var element = $(this), sublist = element.parent().next();
-        
+       
         // When a menu is expanded it has to collapse the siblings and the childs of the siblings
         if (!element.hasClass('x-menu-collapse')) {
 
