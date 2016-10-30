@@ -1,3 +1,4 @@
+[![Stories in Ready](https://badge.waffle.io/openxrm/webkit.png?label=ready&title=Ready)](https://waffle.io/openxrm/webkit)
 webkit
 ======
 
